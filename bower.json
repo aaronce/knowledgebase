@@ -1,0 +1,23 @@
+{
+  "name": "nodekb",
+  "description": "simple knowledgebase app",
+  "main": "app.js",
+  "authors": [
+    "Aaron E"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
