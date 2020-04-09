@@ -53,7 +53,7 @@ router.post('/register', [
           if (err) {
             console.log(err)
             return
-          } 
+          }
           else {
             req.flash('success', 'You are now registered and can log in.')
             res.redirect('/users/login')
